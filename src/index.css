@@ -1,0 +1,90 @@
+@import '~antd/dist/antd.css';
+*{
+    padding:0;
+    margin:0;
+}
+ul,li {
+    list-style: none;
+}
+.headerwrap{
+    height:50px;
+    background-color: #444;
+}
+
+.headerwrap header{
+    width:1200px;
+    margin:0 auto;
+}
+.headerwrap img{
+    width:120px;
+    margin-top:10px;
+    float:left;
+}
+.headerwrap a{
+    margin:0 20px;
+    color:#fff;
+}
+.navbar-search {
+   
+    margin-bottom: 0px;
+}
+.search-query {
+    background: 4px 4px no-repeat #888;
+    background-image:url("/public/images/search.e53b380a.hashed.png");
+    padding: 3px 5px 3px 22px;
+    color:#444;
+    border: 0;
+    margin-top: 12px;
+    transition: all .5s;
+    float:left;
+    margin-left:20px;
+    border-radius: 15px;
+}
+
+body{
+    background-color:#ddd;
+}
+.main{
+    width:1200px;
+    margin:30px auto;
+}
+.content{
+    width:900px;
+    overflow: hidden;
+    float:left;
+   
+}
+.sider{
+    width:270px;
+    height:500px;
+    float:right;
+   
+}
+.panel {
+    margin-bottom: 13px;
+}
+.panel .header {
+    padding: 10px;
+    width:900px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.header a{
+    color:#80bd01;
+    margin:20px 10px;
+}
+.tab-topic.current-tab {
+    background-color: #80bd01;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+
+ .topic-tab {
+    margin: 20px 10px;
+    color: #80bd01;
+}
+
+#root{
+    
+}
